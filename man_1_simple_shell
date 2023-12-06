@@ -1,0 +1,94 @@
+.SH NAME
+shell \- a simple shell program
+
+.SH SYNOPSIS
+.B shell
+
+.SH DESCRIPTION
+The shell program is a simple Unix command-line interpreter that allows users to execute commands and interact with the system.
+
+.SH OPTIONS
+.TP
+.B -h
+Display help information.
+
+.SH COMMANDS
+.TP
+.B command1 [arguments] [&]
+Execute command1 with optional arguments. The '&' denotes running the command in the background.
+
+.TP
+.B command2 [arguments]
+Execute command2 with optional arguments.
+
+.SH EXIT STATUS
+The shell returns 0 on success, and nonzero values indicate various error conditions or command failures.
+
+.SH FILES
+The shell might use or create configuration files and directories. Specify them here if applicable.
+
+.SH SEE ALSO
+List any related commands, manuals, or resources.
+
+.SH BUGS
+List known issues or limitations.
+
+.SH AUTHOR
+Your name or the author's name.
+
+.SH COPYRIGHT
+Information about copyright and licensing.
+
+.SH EXAMPLES
+Show usage examples.
+
+.SH REPORTING BUGS
+Instructions on how to report bugs.
+
+.SH HISTORY
+Document the history of the shell program, versions, and changes made.
+
+.SH NOTES
+Any additional notes or remarks about the shell.
+
+.SH DISCLAIMER
+Any disclaimers or legal information about the software.
+
+.SH REFERENCES
+Links to related documentation or references.
+
+.SH ENVIRONMENT
+List and describe any environment variables used by the shell.
+
+.SH DIAGNOSTICS
+Explain diagnostic messages or error codes.
+
+.SH SEE ALSO
+List related commands or documentation.
+
+.SH BUGS
+Mention known issues or limitations.
+
+.SH AUTHOR
+Your name or the author's name.
+
+.SH COPYRIGHT
+Information about copyright and licensing.
+
+.SH REPORTING BUGS
+Instructions on how to report bugs.
+
+.SH HISTORY
+Document the history of the shell program, versions, and changes made.
+
+.SH NOTES
+Any additional notes or remarks about the shell.
+
+.SH DISCLAIMER
+Any disclaimers or legal information about the software.
+
+.SH REFERENCES
+Links to related documentation or references.
+
+
+THIS IS JUST AN EXAMPLE MAN PAGE!!!
