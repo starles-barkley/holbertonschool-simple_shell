@@ -34,7 +34,7 @@ List any related commands, manuals, or resources.
 List known issues or limitations.
 
 .SH AUTHOR
-Your name or the author's name.
+Starlee Jiles and Amir Colbert
 
 .SH COPYRIGHT
 Information about copyright and licensing.
@@ -70,25 +70,4 @@ List related commands or documentation.
 Mention known issues or limitations.
 
 .SH AUTHOR
-Your name or the author's name.
-
-.SH COPYRIGHT
-Information about copyright and licensing.
-
-.SH REPORTING BUGS
-Instructions on how to report bugs.
-
-.SH HISTORY
-Document the history of the shell program, versions, and changes made.
-
-.SH NOTES
-Any additional notes or remarks about the shell.
-
-.SH DISCLAIMER
-Any disclaimers or legal information about the software.
-
-.SH REFERENCES
-Links to related documentation or references.
-
-
-THIS IS JUST AN EXAMPLE MAN PAGE!!!
+Starlee Jiles and Amir Colbert
