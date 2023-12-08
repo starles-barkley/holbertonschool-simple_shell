@@ -1,8 +1,8 @@
 .SH NAME
-shell \- a simple shell program
+shell \- a program recreating the functionality of a simple shell
 
 .SH SYNOPSIS
-.B shell
+.B A simple shell
 
 .SH DESCRIPTION
 The shell program is a simple Unix command-line interpreter that allows users to execute commands and interact with the system.
@@ -13,61 +13,30 @@ The shell program is a simple Unix command-line interpreter that allows users to
 Display help information.
 
 .SH COMMANDS
+.B
+.IP exit
+exit the simple shell environment
+.B
+.IP env
+print the environmental variables for the current shell.
+.B
+.IP ls
+list files in current directory
+.B
+.IP pwd
+print working directory path
+.SH USAGE
+to use, run file and enter desired command when prompted.
+.SH EXAMPLE
 .TP
-.B command1 [arguments] [&]
-Execute command1 with optional arguments. The '&' denotes running the command in the background.
-
-.TP
-.B command2 [arguments]
-Execute command2 with optional arguments.
+.B simple_shell ls -l
+list contents of current directory in long format
 
 .SH EXIT STATUS
 The shell returns 0 on success, and nonzero values indicate various error conditions or command failures.
 
-.SH FILES
-The shell might use or create configuration files and directories. Specify them here if applicable.
-
 .SH SEE ALSO
-List any related commands, manuals, or resources.
-
-.SH BUGS
-List known issues or limitations.
-
-.SH AUTHOR
-Starlee Jiles and Amir Colbert
-
-.SH COPYRIGHT
-Information about copyright and licensing.
-
-.SH EXAMPLES
-Show usage examples.
-
-.SH REPORTING BUGS
-Instructions on how to report bugs.
-
-.SH HISTORY
-Document the history of the shell program, versions, and changes made.
-
-.SH NOTES
-Any additional notes or remarks about the shell.
-
-.SH DISCLAIMER
-Any disclaimers or legal information about the software.
-
-.SH REFERENCES
-Links to related documentation or references.
-
-.SH ENVIRONMENT
-List and describe any environment variables used by the shell.
-
-.SH DIAGNOSTICS
-Explain diagnostic messages or error codes.
-
-.SH SEE ALSO
-List related commands or documentation.
-
-.SH BUGS
-Mention known issues or limitations.
+.B
 
 .SH AUTHOR
 Starlee Jiles and Amir Colbert
