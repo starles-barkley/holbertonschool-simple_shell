@@ -4,6 +4,7 @@ int main(int ac, char **argv){
   char *prompt = "(Root) $ ";
   char *lineptr;
   size_t n = 0; 
+  ssize_t nchars_read;
 
   (void)ac; (void)argv;
 
