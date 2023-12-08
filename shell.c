@@ -1,5 +1,9 @@
 #include "shell.h"
-
+/**
+ * main - a simple shell that can run commands with their full path
+ *
+ * Return: 0 if successful, 1 if fail
+*/
 int main(int ac, char **argv){
   char *prompt = "(Root) $ ";
   char *lineptr;
